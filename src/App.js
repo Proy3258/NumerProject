@@ -1,11 +1,10 @@
-import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Home } from './pages/Home'
 import { RootOfEq } from './RootOfEq/RootOfEq'
+import { Bisection } from './RootOfEq/Bisection'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
@@ -13,6 +12,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/rootofequation" element={<RootOfEq />} />
+            <Route path="/bisection" element={<Bisection />} />
           </Routes>
       </BrowserRouter>
     </div>
