@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/rootofequation" element={<RootOfEq />} />
+            <Route path="/rootofequations" element={<RootOfEq />} />
             <Route path="/bisection" element={<Bisection />} />
           </Routes>
       </BrowserRouter>

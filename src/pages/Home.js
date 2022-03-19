@@ -12,7 +12,7 @@ export const Home = () => {
         <p>Numer Project ReactJS</p>
         <p>By 6204062620038 วนัชพร เชื้อวิวัฒน์</p>
         <form>
-              <Card.Link href="/rootofequation">
+              <Card.Link href="/rootofequations">
                 <Button variant="primary">ROOT OF EQUATIONS</Button>
               </Card.Link>
           </form>

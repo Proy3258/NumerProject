@@ -5,7 +5,7 @@ export const NavBar = () => {
   return (
     <Navbar bg="dark" variant="dark" sticky="top" expand="md">
       <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="/rootofequations">
             ROOT OF EQUATIONS
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav"></Navbar.Toggle>
